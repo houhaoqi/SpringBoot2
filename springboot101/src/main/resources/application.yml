@@ -1,0 +1,9 @@
+country: china
+
+user:
+  name: haoqi
+  age: 19
+
+# yml数据引用
+baseDir: C:\win10
+tempDir: ${baseDir}\temp #yml支持转义字符，需要在引号内使用
