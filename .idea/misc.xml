@@ -7,6 +7,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/springboot101/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot102_junit/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot103_mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot01aliyun_ioc_aop/pom.xml" />
       </list>
     </option>
   </component>
