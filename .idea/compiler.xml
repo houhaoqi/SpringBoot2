@@ -6,9 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot103_mybatis" />
         <module name="springboot102_junit" />
         <module name="springboot101" />
+        <module name="springboot103_mybatis_druid" />
         <module name="springboot01aliyun_ioc_aop" />
       </profile>
     </annotationProcessing>
@@ -17,7 +17,8 @@
       <module name="springboot01ioc_aop" target="1.8" />
       <module name="springboot101" target="1.8" />
       <module name="springboot102_junit" target="1.8" />
-      <module name="springboot103_mybatis" target="1.8" />
+      <module name="springboot103_mybatis_druid" target="1.8" />
+      <module name="springboot103_Mybatis_Druid" target="1.8" />
       <module name="springboot_01" target="1.8" />
       <module name="springboot_01_quickstart" target="1.8" />
     </bytecodeTargetLevel>
@@ -27,7 +28,8 @@
       <module name="springboot01ioc_aop" options="-parameters" />
       <module name="springboot101" options="-parameters" />
       <module name="springboot102_junit" options="-parameters" />
-      <module name="springboot103_mybatis" options="-parameters" />
+      <module name="springboot103_Mybatis_Druid" options="-parameters" />
+      <module name="springboot103_mybatis_druid" options="-parameters" />
       <module name="springboot_01" options="-parameters" />
       <module name="springboot_01_quickstart" options="-parameters" />
     </option>

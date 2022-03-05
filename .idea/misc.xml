@@ -10,7 +10,13 @@
         <option value="$PROJECT_DIR$/springboot102_junit/pom.xml" />
         <option value="$PROJECT_DIR$/springboot103_mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/springboot01aliyun_ioc_aop/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot103_mybatis_druid/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/springboot103_Mybatis_Druid/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">

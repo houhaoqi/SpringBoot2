@@ -6,7 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot01aliyun_ioc_aop/springboot01aliyun_ioc_aop.iml" filepath="$PROJECT_DIR$/springboot01aliyun_ioc_aop/springboot01aliyun_ioc_aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot101/springboot101.iml" filepath="$PROJECT_DIR$/springboot101/springboot101.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot102_junit/springboot102_junit.iml" filepath="$PROJECT_DIR$/springboot102_junit/springboot102_junit.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot103_mybatis/springboot103_mybatis.iml" filepath="$PROJECT_DIR$/springboot103_mybatis/springboot103_mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot103_mybatis_druid/springboot103_mybatis_druid.iml" filepath="$PROJECT_DIR$/springboot103_mybatis_druid/springboot103_mybatis_druid.iml" />
     </modules>
   </component>
 </project>
