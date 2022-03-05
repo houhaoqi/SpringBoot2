@@ -21,8 +21,8 @@ public class PermissionsController {
         return JSON.parseObject("{\"message\":\"SUCCESS\",\"code\":200}");
     }
 
-    @RequestMapping(value = "check",method = RequestMethod.GET)
-    public String getTest(){
+    @RequestMapping(value = "check", method = RequestMethod.GET)
+    public String getTest() {
         System.out.println("get 请求：浏览器可以访问");
         return "return: get 请求：浏览器可以访问";
     }

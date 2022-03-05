@@ -6,7 +6,6 @@ package com.haoqi.domain;
  * @author haoqi
  * @Date 2022/3/4 - 22:35
  */
-//@TableName("testdb")
 public class Book {
     private Integer id;
     private String type;

@@ -13,12 +13,12 @@ import java.awt.print.Book;
 @RequestMapping("/books")
 public class bookController {
 
-//    @RequestMapping(method = RequestMethod.POST)
+    //    @RequestMapping(method = RequestMethod.POST)
     @PostMapping
     @ResponseBody //将Java对象转换为json格式数据
-    public String postTest(Book book){
+    public String postTest(Book book) {
         String str = "{'module':'book save'}";
-        System.out.println("POST请求："+str+book);
+        System.out.println("POST请求：" + str + book);
 
         return "Post 请求";
     }
@@ -26,9 +26,9 @@ public class bookController {
 
     @GetMapping
     @ResponseBody
-    public String getTest(Book book){
+    public String getTest(Book book) {
         String str = "{'module':'book save'}";
-        System.out.println("GET请求："+str+book);
+        System.out.println("GET请求：" + str + book);
 
         return "Get 请求";
     }

@@ -19,12 +19,12 @@ import org.springframework.stereotype.Component;
 public class PermissionFirstAdvice {
     //定义一个切面，写入自定义注解的路径
     @Pointcut("@annotation(com.haoqi.AOP.annotation.PermissionAnnotation)")
-    private void permissionCheck(){
+    private void permissionCheck() {
     }
 
     //选择一个处理时机
     @Around("permissionCheck()")
-    public Object permissionCheckFirst(ProceedingJoinPoint joinPoint) throws Throwable{
+    public Object permissionCheckFirst(ProceedingJoinPoint joinPoint) throws Throwable {
         System.out.println("===================第一个切面===================：" + System.currentTimeMillis());
         // 获取请求参数 （阅读接口类）
         Object[] objects = joinPoint.getArgs();

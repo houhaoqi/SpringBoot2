@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/aop")
 public class AopController {
     @GetMapping("/get")
-    public String getTest(){
+    public String getTest() {
         System.out.println("get 请求：");
         return "get 请求： return";
     }

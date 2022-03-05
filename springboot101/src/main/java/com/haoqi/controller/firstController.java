@@ -33,13 +33,13 @@ public class firstController {
     private Environment environment;
 
     @GetMapping
-    public String getById(){
+    public String getById() {
 
         String text = "The first springBoot101 Application";
         System.out.println(text);
-        System.out.println("The country =====> "+country1);
-        System.out.println("The user.name =====> "+name1);
-        System.out.println("The tempDir =====> "+tempDir1);
+        System.out.println("The country =====> " + country1);
+        System.out.println("The user.name =====> " + name1);
+        System.out.println("The tempDir =====> " + tempDir1);
         System.out.println("=-=========================-=");
         System.out.println(environment.getProperty("country"));
         System.out.println(environment.getProperty("user.name"));
