@@ -1,7 +1,7 @@
 package com.haoqi.service;
 
+import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.haoqi.domain.Book;
 
 /**
@@ -10,6 +10,10 @@ import com.haoqi.domain.Book;
  */
 public interface IBookService extends IService<Book> {
     //自定义方法功能追加
-//    boolean saveBook(Book book);
-//    boolean removeById(Book book);
+    boolean saveBook(Book book);
+    boolean modify(Book book);
+    boolean delete(Integer id);
+    IPage<Book> getPage(Integer currentPage,Integer size);
+    IPage<Book> getPage(int current,Integer pageSize,Book book);
+
 }
