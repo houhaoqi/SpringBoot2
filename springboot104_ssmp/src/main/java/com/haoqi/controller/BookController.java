@@ -14,7 +14,7 @@ import java.util.List;
  * @author haoqi
  * @Date 2022/3/6 - 21:45
  */
-@RestController
+//@RestController //停用 避免与BookControllerR冲突
 @RequestMapping("/books")
 public class BookController {
     @Autowired
