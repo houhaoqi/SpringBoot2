@@ -38,13 +38,13 @@ public class BookControllerR {
 
     @GetMapping("{currentPage}/{size}") // 查询 页/条 数据
     public R getPage(@PathVariable Integer currentPage,@PathVariable Integer size,Book book){
-//        System.out.println("参数 ====> " + book);
-//        IPage page = iBookService.getPage(currentPage,size,book);
-//        if (currentPage > page.getCurrent()){
-//            page = iBookService.getPage((int)page.getCurrent(), size, book);
-//        }
-
-        return new R(true,iBookService.getPage(currentPage,size));
+        System.out.println("参数 ====> " + book);
+        IPage page = iBookService.getPage(currentPage,size,book);
+        // 如果当前页码值大于总页数，重新执行查询操作，使用最大页码显示当前页面
+        if (currentPage > page.getCurrent()){
+            page = iBookService.getPage((int)page.getCurrent(), size, book);
+        }
+        return new R(true,page);
     }
 
     @PostMapping //增加数据
