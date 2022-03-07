@@ -15,7 +15,7 @@ import java.util.List;
  * @Date 2022/3/6 - 21:45
  */
 //@RestController //停用 避免与BookControllerR冲突
-@RequestMapping("/books")
+//@RequestMapping("/books")
 public class BookController {
     @Autowired
     private IBookService iBookService;

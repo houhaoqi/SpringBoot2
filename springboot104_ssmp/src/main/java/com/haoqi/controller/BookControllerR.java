@@ -26,7 +26,7 @@ public class BookControllerR {
     @Autowired
     private IBookService iBookService;
 
-    @GetMapping //查询所有数据
+    @GetMapping("/books") //查询所有数据
     public R getAll(){
         return new R(true,iBookService.list());
     }
