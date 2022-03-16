@@ -1,6 +1,7 @@
 package com.example.service;
 
 import com.example.entity.YmlEntity;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
@@ -8,6 +9,7 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import sun.rmi.runtime.Log;
 
 /**
  * @author haoqi
@@ -15,6 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @EnableAutoConfiguration
+@Slf4j
 public class MemberService {
 
     //读取propertie文件配置
@@ -38,6 +41,18 @@ public class MemberService {
     @GetMapping("/properties")
     public String properties(){
         return name+" -- "+age;
+    }
+
+
+    //日志打印
+    @RequestMapping("/getLog")
+    public String getLog(String name,int age){
+//        log.info("name:{},age:{}",name,age);
+//        try {
+//        }catch (Exception e){
+//            log.error("");
+//        }
+        return name;
     }
 
 

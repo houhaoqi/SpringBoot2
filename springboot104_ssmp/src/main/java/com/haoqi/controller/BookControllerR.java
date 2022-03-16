@@ -14,7 +14,7 @@ import java.util.TreeMap;
  * @author haoqi
  * @Date 2022/3/6 - 21:45
  */
-@RestController
+@RestController  //该类中所有springMvcUrl接口映射返回json数据格式
 @RequestMapping("/books")
 public class BookControllerR {
 

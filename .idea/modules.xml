@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/SpringBoot2.iml" filepath="$PROJECT_DIR$/.idea/SpringBoot2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot00test/springboot00test.iml" filepath="$PROJECT_DIR$/springboot00test/springboot00test.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot01aliyun_ioc_aop/springboot01aliyun_ioc_aop.iml" filepath="$PROJECT_DIR$/springboot01aliyun_ioc_aop/springboot01aliyun_ioc_aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot02maven/springboot02maven.iml" filepath="$PROJECT_DIR$/springboot02maven/springboot02maven.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot101/springboot101.iml" filepath="$PROJECT_DIR$/springboot101/springboot101.iml" />
