@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot102_junit/springboot102_junit.iml" filepath="$PROJECT_DIR$/springboot102_junit/springboot102_junit.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot103_mybatis_druid/springboot103_mybatis_druid.iml" filepath="$PROJECT_DIR$/springboot103_mybatis_druid/springboot103_mybatis_druid.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot104_ssmp/springboot104_ssmp.iml" filepath="$PROJECT_DIR$/springboot104_ssmp/springboot104_ssmp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/music-website/music-server/yin.iml" filepath="$PROJECT_DIR$/music-website/music-server/yin.iml" />
     </modules>
   </component>
 </project>
